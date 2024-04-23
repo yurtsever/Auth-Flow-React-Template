@@ -35,10 +35,8 @@ To use this template for your project, follow these steps:
 You can create a new project based on this template using Vite.js:
 
 ```bash
-npm create vite@latest my-new-project --template gitlab:username/project-name
+npm create vite@latest my-new-project --template gitlab:yurtsever/Auth-Flow-React-Template
 ```
-
-Replace `username/project-name` with the appropriate GitLab repository path.
 
 ### Installation
 
