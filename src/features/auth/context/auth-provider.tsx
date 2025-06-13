@@ -1,4 +1,6 @@
 import React from 'react'
+import { AuthContext } from './auth-context'
+import type { User } from './auth-context.definitions'
 
 function AuthProvider({
   children,
