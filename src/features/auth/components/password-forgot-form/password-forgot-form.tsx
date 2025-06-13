@@ -2,7 +2,7 @@ import React from 'react'
 import { Input } from '@/components/input'
 import { Button } from '@/components/button'
 
-function PasswordForgotFrom(): React.FunctionComponentElement<undefined> {
+function PasswordForgotForm(): React.FunctionComponentElement<undefined> {
   return (
     <>
       <Input type="text" placeholder="E-Mail" />
@@ -11,4 +11,4 @@ function PasswordForgotFrom(): React.FunctionComponentElement<undefined> {
   )
 }
 
-export default PasswordForgotFrom
+export default PasswordForgotForm

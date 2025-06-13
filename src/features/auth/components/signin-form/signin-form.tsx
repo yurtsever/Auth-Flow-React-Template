@@ -3,7 +3,7 @@ import { Input } from '@/components/input'
 import { SigninFormProps } from './signin-form.definitions'
 import { Button } from '@/components/button'
 
-function SigninFrom(props: SigninFormProps): React.FunctionComponentElement<SigninFormProps> {
+function SigninForm(props: SigninFormProps): React.FunctionComponentElement<SigninFormProps> {
   return (
     <form {...props}>
       <Input type="text" placeholder="E-Mail" />
@@ -13,4 +13,4 @@ function SigninFrom(props: SigninFormProps): React.FunctionComponentElement<Sign
   )
 }
 
-export default SigninFrom
+export default SigninForm
